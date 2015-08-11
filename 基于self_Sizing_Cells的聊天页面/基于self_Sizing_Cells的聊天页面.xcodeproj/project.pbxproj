@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F72865971A8A01A70062BCDA /* BHBMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72865961A8A01A70062BCDA /* BHBMessageCell.swift */; };
+		F73D771B1A875DFD00253328 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73D771A1A875DFD00253328 /* AppDelegate.swift */; };
+		F73D771D1A875DFD00253328 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73D771C1A875DFD00253328 /* ViewController.swift */; };
+		F73D77201A875DFD00253328 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F73D771E1A875DFD00253328 /* Main.storyboard */; };
+		F73D77221A875DFD00253328 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F73D77211A875DFD00253328 /* Images.xcassets */; };
+		F73D77251A875DFD00253328 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F73D77231A875DFD00253328 /* LaunchScreen.xib */; };
+		F73D77311A875DFD00253328 /* __self_Sizing_Cells_____Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73D77301A875DFD00253328 /* __self_Sizing_Cells_____Tests.swift */; };
+		F73D773E1A87639900253328 /* BHBMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73D773D1A87639900253328 /* BHBMessage.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F73D772B1A875DFD00253328 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F73D770D1A875DFD00253328 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F73D77141A875DFD00253328;
+			remoteInfo = "基于self_Sizing_Cells的聊天页面";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F72865961A8A01A70062BCDA /* BHBMessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BHBMessageCell.swift; sourceTree = "<group>"; };
+		F73D77151A875DFD00253328 /* 基于self_Sizing_Cells的聊天页面.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "基于self_Sizing_Cells的聊天页面.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F73D77191A875DFD00253328 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F73D771A1A875DFD00253328 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F73D771C1A875DFD00253328 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F73D771F1A875DFD00253328 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F73D77211A875DFD00253328 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F73D77241A875DFD00253328 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F73D772A1A875DFD00253328 /* 基于self_Sizing_Cells的聊天页面Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "基于self_Sizing_Cells的聊天页面Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F73D772F1A875DFD00253328 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F73D77301A875DFD00253328 /* __self_Sizing_Cells_____Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "__self_Sizing_Cells_____Tests.swift"; sourceTree = "<group>"; };
+		F73D773D1A87639900253328 /* BHBMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BHBMessage.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F73D77121A875DFD00253328 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F73D77271A875DFD00253328 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F72865951A8A018A0062BCDA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F72865961A8A01A70062BCDA /* BHBMessageCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F73D770C1A875DFD00253328 = {
+			isa = PBXGroup;
+			children = (
+				F73D77171A875DFD00253328 /* 基于self_Sizing_Cells的聊天页面 */,
+				F73D772D1A875DFD00253328 /* 基于self_Sizing_Cells的聊天页面Tests */,
+				F73D77161A875DFD00253328 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F73D77161A875DFD00253328 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F73D77151A875DFD00253328 /* 基于self_Sizing_Cells的聊天页面.app */,
+				F73D772A1A875DFD00253328 /* 基于self_Sizing_Cells的聊天页面Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F73D77171A875DFD00253328 /* 基于self_Sizing_Cells的聊天页面 */ = {
+			isa = PBXGroup;
+			children = (
+				F72865951A8A018A0062BCDA /* Views */,
+				F73D773C1A87638300253328 /* Models */,
+				F73D771A1A875DFD00253328 /* AppDelegate.swift */,
+				F73D771C1A875DFD00253328 /* ViewController.swift */,
+				F73D771E1A875DFD00253328 /* Main.storyboard */,
+				F73D77211A875DFD00253328 /* Images.xcassets */,
+				F73D77231A875DFD00253328 /* LaunchScreen.xib */,
+				F73D77181A875DFD00253328 /* Supporting Files */,
+			);
+			path = "基于self_Sizing_Cells的聊天页面";
+			sourceTree = "<group>";
+		};
+		F73D77181A875DFD00253328 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F73D77191A875DFD00253328 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F73D772D1A875DFD00253328 /* 基于self_Sizing_Cells的聊天页面Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F73D77301A875DFD00253328 /* __self_Sizing_Cells_____Tests.swift */,
+				F73D772E1A875DFD00253328 /* Supporting Files */,
+			);
+			path = "基于self_Sizing_Cells的聊天页面Tests";
+			sourceTree = "<group>";
+		};
+		F73D772E1A875DFD00253328 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F73D772F1A875DFD00253328 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F73D773C1A87638300253328 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F73D773D1A87639900253328 /* BHBMessage.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F73D77141A875DFD00253328 /* 基于self_Sizing_Cells的聊天页面 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F73D77341A875DFD00253328 /* Build configuration list for PBXNativeTarget "基于self_Sizing_Cells的聊天页面" */;
+			buildPhases = (
+				F73D77111A875DFD00253328 /* Sources */,
+				F73D77121A875DFD00253328 /* Frameworks */,
+				F73D77131A875DFD00253328 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "基于self_Sizing_Cells的聊天页面";
+			productName = "基于self_Sizing_Cells的聊天页面";
+			productReference = F73D77151A875DFD00253328 /* 基于self_Sizing_Cells的聊天页面.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F73D77291A875DFD00253328 /* 基于self_Sizing_Cells的聊天页面Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F73D77371A875DFD00253328 /* Build configuration list for PBXNativeTarget "基于self_Sizing_Cells的聊天页面Tests" */;
+			buildPhases = (
+				F73D77261A875DFD00253328 /* Sources */,
+				F73D77271A875DFD00253328 /* Frameworks */,
+				F73D77281A875DFD00253328 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F73D772C1A875DFD00253328 /* PBXTargetDependency */,
+			);
+			name = "基于self_Sizing_Cells的聊天页面Tests";
+			productName = "基于self_Sizing_Cells的聊天页面Tests";
+			productReference = F73D772A1A875DFD00253328 /* 基于self_Sizing_Cells的聊天页面Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F73D770D1A875DFD00253328 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "毕洪博";
+				TargetAttributes = {
+					F73D77141A875DFD00253328 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					F73D77291A875DFD00253328 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = F73D77141A875DFD00253328;
+					};
+				};
+			};
+			buildConfigurationList = F73D77101A875DFD00253328 /* Build configuration list for PBXProject "基于self_Sizing_Cells的聊天页面" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F73D770C1A875DFD00253328;
+			productRefGroup = F73D77161A875DFD00253328 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F73D77141A875DFD00253328 /* 基于self_Sizing_Cells的聊天页面 */,
+				F73D77291A875DFD00253328 /* 基于self_Sizing_Cells的聊天页面Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F73D77131A875DFD00253328 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F73D77201A875DFD00253328 /* Main.storyboard in Resources */,
+				F73D77251A875DFD00253328 /* LaunchScreen.xib in Resources */,
+				F73D77221A875DFD00253328 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F73D77281A875DFD00253328 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F73D77111A875DFD00253328 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F72865971A8A01A70062BCDA /* BHBMessageCell.swift in Sources */,
+				F73D773E1A87639900253328 /* BHBMessage.swift in Sources */,
+				F73D771D1A875DFD00253328 /* ViewController.swift in Sources */,
+				F73D771B1A875DFD00253328 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F73D77261A875DFD00253328 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F73D77311A875DFD00253328 /* __self_Sizing_Cells_____Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F73D772C1A875DFD00253328 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F73D77141A875DFD00253328 /* 基于self_Sizing_Cells的聊天页面 */;
+			targetProxy = F73D772B1A875DFD00253328 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F73D771E1A875DFD00253328 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F73D771F1A875DFD00253328 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F73D77231A875DFD00253328 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F73D77241A875DFD00253328 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F73D77321A875DFD00253328 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F73D77331A875DFD00253328 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F73D77351A875DFD00253328 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "基于self_Sizing_Cells的聊天页面/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F73D77361A875DFD00253328 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "基于self_Sizing_Cells的聊天页面/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F73D77381A875DFD00253328 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "基于self_Sizing_Cells的聊天页面Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/基于self_Sizing_Cells的聊天页面.app/基于self_Sizing_Cells的聊天页面";
+			};
+			name = Debug;
+		};
+		F73D77391A875DFD00253328 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "基于self_Sizing_Cells的聊天页面Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/基于self_Sizing_Cells的聊天页面.app/基于self_Sizing_Cells的聊天页面";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F73D77101A875DFD00253328 /* Build configuration list for PBXProject "基于self_Sizing_Cells的聊天页面" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F73D77321A875DFD00253328 /* Debug */,
+				F73D77331A875DFD00253328 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F73D77341A875DFD00253328 /* Build configuration list for PBXNativeTarget "基于self_Sizing_Cells的聊天页面" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F73D77351A875DFD00253328 /* Debug */,
+				F73D77361A875DFD00253328 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F73D77371A875DFD00253328 /* Build configuration list for PBXNativeTarget "基于self_Sizing_Cells的聊天页面Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F73D77381A875DFD00253328 /* Debug */,
+				F73D77391A875DFD00253328 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F73D770D1A875DFD00253328 /* Project object */;
+}
